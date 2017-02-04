@@ -1,0 +1,39 @@
+html, body {
+	color: white;
+	font-family: 'Quicksand', sans-serif;	
+  	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	padding: 0;
+  	margin: 0;	
+  	background-color: #00dce6;
+}
+
+
+section {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*menu cupcakes*/
+
+#image {
+	float: left;
+	width: 35%;
+}
+
+
+#title, #show {
+    text-align: center;
+}
+
+#show {
+    display: none;
+    padding: 5px;
+}
+
+.box {
+	padding-left: 75px;
+}	
