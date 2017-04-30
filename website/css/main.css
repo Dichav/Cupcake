@@ -9,25 +9,25 @@ html, body {
   	background-color: #00dce6;
 }
 
+
+
 /*navbar*/
-.navbar {
-	background-color: #00dce6;	
+.nav-tabs.nav-justified>li>a:hover, 
+.nav-tabs.nav-justified>li>a:visited,
+a:hover, li a,
+.navi {
+	background-color: #00dce6;
+	color: white;
+	font-size: 1.5em;
 }
 
-a:link {
-	color: green;  
+.nav-tabs.nav-justified>li>a,
+.nav-tabs.nav-justified>li>a:hover {
+	border-bottom: none;
+	border: none;	
 }
 
-a:hover {
-    color: white;   
-	background-color: red;	  
-}
 
-/* MEH
-a:active {
-	color: black;	
-}
-*/
 
 section {
 	display: block;
@@ -42,30 +42,28 @@ footer {
 	background-color: white;
 }
 
-
-
 /*menu cupcakes*/
 
-#image {
+.cc {
 	float: left;
 	width: 35%;
 }
 
 
-h4 {
+h4, .box p {
     text-align: center;
 }
 
-.box p {
-	text-align: center;
-}
 
 .box {
 	padding-left: 75px;
 }	
 
-.cc {
-	float: left;
-	width: 35%;	
+/*test cupcake*/
+.test_img {
+	background-color: red;
 }
 
+.test_box {
+	background-color: green;
+}
