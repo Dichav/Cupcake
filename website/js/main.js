@@ -6,11 +6,12 @@ $(document).ready(function(){
 		
 		var $this = $(this).parent().find("p");
 		
-		$(".box p").not($this).hide();
+		$(".box p").not($this).hide("slow");
 
 		$this.slideToggle("slow");
 	});
 });
+
 
 
 
