@@ -10,7 +10,6 @@ html, body {
 }
 
 
-
 /*navbar*/
 .nav-tabs.nav-justified>li>a:hover, 
 .nav-tabs.nav-justified>li>a:visited,
@@ -18,7 +17,7 @@ a:hover, li a,
 .navi {
 	background-color: #00dce6;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .nav-tabs.nav-justified>li>a,
@@ -28,7 +27,6 @@ a:hover, li a,
 }
 
 
-
 section {
 	display: block;
 	width: 100%;
@@ -36,7 +34,7 @@ section {
 }
 
 footer {
-  	padding: 0.5rem;	
+  	padding: 0.5em;	
 	color: black;
 	text-align: center;
 	background-color: white;
@@ -56,14 +54,9 @@ h4, .box p {
 
 
 .box {
-	padding-left: 75px;
+	padding-left: 75px; 
 }	
 
-/*test cupcake*/
-.test_img {
-	background-color: red;
-}
 
-.test_box {
-	background-color: green;
-}
+
+/*test*/
